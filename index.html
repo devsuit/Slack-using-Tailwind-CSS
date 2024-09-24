@@ -7,23 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="nav">
-      <ul class="flex space-x-4 m-4 bg-white">
-        <img class="h-12 pb-2 ml-4" src="assets/slack-logo.png" alt="">
-        <li class="pt-2" >Features</li>
-        <li class="pt-2" >Solutions</li>
-        <li class="pt-2" >Enterprise</li>
-        <li class="pt-2" >Resources</li>
-        <li class="pt-2" >Pricing</li>
-        <!-- <div class=" flex ml-96"> -->
-            <div class="space-x-4">search</div>
-        <div>Sign In</div>
-        <div>TALK TO SALES</div>
-        <div>Get to Started</div>
+    <div class="nav bg-white">
+      <ul class="flex items-center justify-between m-4">
+        <li class="hidden lg:flex items-center space-x-4 font-medium">
+          <img class="h-12 pb-2" src="assets/slack-logo.png" alt="">
+          <span class="pt-2">Features</span>
+          <span class="pt-2">Solutions</span>
+          <span class="pt-2">Enterprise</span>
+          <span class="pt-2">Resources</span>
+          <span class="pt-2">Pricing</span>
+        </li>
+        <div class=" hidden lg:flex items-center space-x-4 font-medium">
+          <span>search</span>
+          <span>Sign In</span>
+          <span class="border border-purple-800 p-2 rounded-md" >TALK TO SALES</span>
+          <span class="border bg-purple-800 p-2 rounded-md text-white" >Get Started</span>
         </div>
-            </ul>
-            
+        <div class="flex justify-center lg:hidden ">
+          <img class="h-12 pb-2" src="assets/slack-logo.png" alt="">
+        </div>
+      </ul>
     </div>
+    
+    
+            
+    
     
   </body>
 </html>
