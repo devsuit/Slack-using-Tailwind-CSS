@@ -7,31 +7,160 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="nav bg-white">
-      <ul class="flex items-center justify-between m-4">
-        <li class="hidden lg:flex items-center space-x-4 font-medium">
-          <img class="h-12 pb-2" src="assets/slack-logo.png" alt="">
-          <span class="pt-2">Features</span>
-          <span class="pt-2">Solutions</span>
-          <span class="pt-2">Enterprise</span>
-          <span class="pt-2">Resources</span>
-          <span class="pt-2">Pricing</span>
-        </li>
-        <div class=" hidden lg:flex items-center space-x-4 font-medium">
-          <span>search</span>
-          <span>Sign In</span>
-          <span class="border border-purple-800 p-2 rounded-md" >TALK TO SALES</span>
-          <span class="border bg-purple-800 p-2 rounded-md text-white" >Get Started</span>
+    <section class="container">
+      <div class="nav bg-white">
+        <ul class="flex items-center justify-between m-4">
+          <li class="hidden lg:flex items-center space-x-4 font-medium">
+            <img class="h-12 pb-2" src="assets/slack-logo.png" alt="" />
+            <span class="pt-2">Features</span>
+            <span class="pt-2">Solutions</span>
+            <span class="pt-2">Enterprise</span>
+            <span class="pt-2">Resources</span>
+            <span class="pt-2">Pricing</span>
+          </li>
+          <div class="hidden lg:flex items-center space-x-4 font-medium">
+            <span>search</span>
+            <span>Sign In</span>
+            <span class="border border-fuchsia-950 p-2 rounded-md"
+              >TALK TO SALES</span
+            >
+            <button class="border bg-fuchsia-950 p-2 rounded-md text-white">
+              Get Started
+            </button>
+          </div>
+          <div class="flex justify-center lg:hidden">
+            <img class="h-12 pb-2" src="assets/slack-logo.png" alt="" />
+          </div>
+        </ul>
+      </div>
+
+      <div class="text-center mx-4 my-8">
+        <h1 class="sm: text-5xl md:text-6xl font-medium">
+          Made for people.
+          <span class="text-fuchsia-950">Built for productivity.</span>
+        </h1>
+        <button
+          class="border bg-fuchsia-950 py-4 sm: px-32 md:px-8 text-lg uppercase rounded-md m-4 text-white"
+        >
+          Get Started
+        </button>
+        <p class="text-xl">
+          <span class="font-bold">Slack is free to try</span> for as long as you
+          like
+        </p>
+      </div>
+
+      <div
+        class="brandimgs grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-32 justify-items-center"
+      >
+        <div><img class="" src="assets/logo-airbnb.png" alt="" /></div>
+        <div><img class="" src="assets/logo-nasa.png" alt="" /></div>
+        <div><img class="" src="assets/logo-uber.png" alt="" /></div>
+        <div><img class="" src="assets/logo-target.png" alt="" /></div>
+        <div><img class="" src="assets/logo-nyt.png" alt="" /></div>
+        <div><img class="" src="assets/logo-etsy.png" alt="" /></div>
+        <!-- <img src="assets/logo-nasa.png" alt="">
+      <img src="assets/logo-uber.png" alt="">
+      <img src="assets/logo-target.png" alt="">
+      <img src="assets/logo-nyt.png" alt="">
+    <img src="assets/logo-etsy.png" alt="">   -->
+      </div>
+
+      <div class="videohero justify-items-center mx-16 lg:mx-40 my-4">
+        <video src="assets/herovideo.webm"></video>
+      </div>
+    </section>
+
+    <section class="tools grid grid-cols-1 lg:grid-cols-2 bg-[#f4ede4] py-16">
+      <div class="md:max-w-screen-sm">
+        <video src="assets/speed.en.webm"></video>
+      </div>
+      <div class="px-8">
+        <h1 class="text-6xl font-medium py-4">
+          Move faster with your tools in one place
+        </h1>
+        <p class="py-4 text-2xl">
+          Automate away routine tasks with the power of generative AI and
+          simplify your workflow with all your favourite apps ready to go in
+          Slack.
+        </p>
+        <span class="pt-8 text-blue-500 cursor-pointer hover:underline"
+          >Learn more about the Slack platform</span
+        >
+      </div>
+    </section>
+
+    <section class="work grid grid-cols-1 lg:grid-cols-2 bg-[#f4ede4] py-16">
+      <div class="px-16">
+        <h1 class="text-6xl font-medium py-4">Choose how you want to work</h1>
+        <p class="py-4 text-2xl">
+          In Slack, you’ve got all the flexibility to work when, where and how
+          it’s best for you. You can easily chat, send audio and video clips, or
+          join a huddle to talk things through live.
+        </p>
+        <span class="pt-8 text-blue-500 cursor-pointer hover:underline"
+          >Learn more about flexible communication</span
+        >
+      </div>
+      <div class="max-w-screen-md pt-8">
+        <video src="assets//ia4-flexibility.webm"></video>
+      </div>
+    </section>
+
+    <section
+      class="connectedness grid grid-cols-1 lg:grid-cols-2 bg-[#f4ede4] py-16"
+    >
+      <div class="md:max-w-screen-sm">
+        <video src="assets/connectedness.webm"></video>
+      </div>
+      <div class="px-8">
+        <h1 class="text-6xl font-medium py-4">Bring your team together</h1>
+        <p class="py-4 text-2xl">
+          At the heart of Slack are channels: organised spaces for everyone and
+          everything that you need for work. In channels, it’s easier to connect
+          across departments, offices, time zones and even other companies.
+        </p>
+        <span class="pt-8 text-blue-500 cursor-pointer hover:underline"
+          >Learn more about channels</span
+        >
+      </div>
+    </section>
+    <section class="pb-16">
+      <div class="text-center mx-4 my-24">
+        <h1 class="sm: text-5xl md:text-6xl font-medium">
+          Teams large and small rely on Slack
+        </h1>
+        <p class="text-xl py-8">
+          Slack securely scales up to support collaboration at the world’s
+          biggest companies.
+        </p>
+        <button
+          class="border bg-fuchsia-950 py-4 sm: px-32 md:px-8 text-lg uppercase rounded-md m-4 text-white"
+        >
+          MEET SLACK FOR ENTERPRISE
+        </button>
+        <button
+          class="border border-fuchsia-950 py-4 sm: px-32 md:px-8 text-lg uppercase rounded-md m-4 text-fuchsia-950"
+        >
+          TALK TO SALES
+        </button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center mx-32 gap-8">
+        <div class="">
+          <h1 class="text-fuchsia-950 text-7xl font-medium" >85%</h1>
+          <p class="text-lg" >of users say that Slack has improved communication*</p>
         </div>
-        <div class="flex justify-center lg:hidden ">
-          <img class="h-12 pb-2" src="assets/slack-logo.png" alt="">
+        <div>
+          <h1 class="text-fuchsia-950 text-7xl font-medium" >86%</h1>
+          <p class="text-lg" >
+            feel that their ability to work remotely has improved*</p>
         </div>
-      </ul>
-    </div>
-    
-    
-            
-    
-    
+        <div>
+          <h1 class="text-fuchsia-950 text-7xl font-medium" >88%</h1>
+          <p class="text-lg" >
+            feel more connected to their teams*</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
