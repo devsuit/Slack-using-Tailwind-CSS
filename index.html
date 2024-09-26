@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="container">
+    <section class="">
       <div class="nav bg-white">
         <ul class="flex items-center justify-between m-4">
-          <li class="hidden lg:flex items-center space-x-4 font-medium">
+          <li class="hidden md:flex items-center space-x-4 font-medium">
             <img class="h-12 pb-2" src="assets/slack-logo.png" alt="" />
             <span class="pt-2">Features</span>
             <span class="pt-2">Solutions</span>
@@ -28,7 +28,7 @@
               Get Started
             </button>
           </div>
-          <div class="flex justify-center lg:hidden">
+          <div class="flex justify-center md:hidden">
             <img class="h-12 pb-2" src="assets/slack-logo.png" alt="" />
           </div>
         </ul>
@@ -145,21 +145,45 @@
           TALK TO SALES
         </button>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center mx-32 gap-8">
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 justify-items-center mx-32 gap-8"
+      >
         <div class="">
-          <h1 class="text-fuchsia-950 text-7xl font-medium" >85%</h1>
-          <p class="text-lg" >of users say that Slack has improved communication*</p>
+          <h1 class="text-fuchsia-950 text-7xl font-medium">85%</h1>
+          <p class="text-lg">
+            of users say that Slack has improved communication*
+          </p>
         </div>
         <div>
-          <h1 class="text-fuchsia-950 text-7xl font-medium" >86%</h1>
-          <p class="text-lg" >
-            feel that their ability to work remotely has improved*</p>
+          <h1 class="text-fuchsia-950 text-7xl font-medium">86%</h1>
+          <p class="text-lg">
+            feel that their ability to work remotely has improved*
+          </p>
         </div>
         <div>
-          <h1 class="text-fuchsia-950 text-7xl font-medium" >88%</h1>
-          <p class="text-lg" >
-            feel more connected to their teams*</p>
+          <h1 class="text-fuchsia-950 text-7xl font-medium">88%</h1>
+          <p class="text-lg">feel more connected to their teams*</p>
         </div>
+      </div>
+    </section>
+
+    <section class="connectedness grid grid-cols-1 lg:grid-cols-2 py-16">
+      <div class="md:max-w-screen-sm">
+        <video src="assets/IBM.mp4"></video>
+      </div>
+      <div class="px-8">
+        <h1 class="text-2xl italic leading-10">
+          "Whether you’re a small or large organization, executing anything from
+          a discrete modernization program to a digital transformation
+          initiative, Slack is an incredibly powerful tool in the hybrid world."
+        </h1>
+        <h2 class="font-medium">    Jennifer Quinlan</h2>
+        <p class=" text-md">
+          Managing Partner, IBM iX Americas Leader - Customer and Experience Transformation, IBM
+        </p>
+        <span class="pt-8 text-blue-500 cursor-pointer hover:underline"
+          >See more customer stories</span
+        >
       </div>
     </section>
   </body>
